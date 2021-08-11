@@ -32,6 +32,9 @@ File|# of series|Details
 ### Outputs
 - The result of IRF with error bands   :  [*IRF_FAVAR.xlsx*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/IRF_FAVAR.xlsx)
 - The result of variance decomposition :  [*VD_FAVAR.xlsx*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/VD_FAVAR.xlsx)
+### Tips
+- When running the __*Main code.rpf*__, all the other files which is also ziped in [*__FAVAR_TWO_STEPS_LYX__*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/FAVAR_TWO_STEPS_LYX.zip) should be in the same working directory with it, as well as [*ydata.xlsx*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/ydata.XLSX) and [*xdata.xlsx*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/xdata.XLSX).
+- For more technical details about *two-step estimation* method of FAVAR model and my package, it's beneficial to read the [*working-paper*](http://www.nber.org/papers/w10220) version of *Bernanke et al. (2005)*, which was published in 2004.
 ### Copyright notice
 - AUTHOR: __*Yingxin LIN*__
 - Company: *Prof.[__Yi FAN__](http://sf.cufe.edu.cn/info/1112/10555.htm)'s workshop, School of Finance, Central University of Finance and Economics* (CUFE)
