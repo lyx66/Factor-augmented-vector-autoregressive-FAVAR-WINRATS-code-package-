@@ -14,7 +14,7 @@
 - Main code.rpf
 - verd_lyx.src&emsp;&emsp;&emsp;&ensp;- get variance matrix of forecast error
 - mcgraphirf_lyx.src&ensp;- get median value and error band of IRF
-- kilianbootsetup.src - *two-stages boostrap* for IRF error band ( [*Kilian*](https://direct.mit.edu/rest/article-abstract/80/2/218/57059)*, 1998* )
+- kilianbootsetup.src - *two-stages boostrap* for IRF error band ( [*Kilian, 1998*](https://direct.mit.edu/rest/article-abstract/80/2/218/57059)* )
 ### Enviroment
 - FAVAR model: *Windows RATS 10.0*
 - Graph for IRF: *Python 3.7*
