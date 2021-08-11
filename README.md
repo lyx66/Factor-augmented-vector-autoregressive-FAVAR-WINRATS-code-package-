@@ -25,7 +25,7 @@ File|# of series|Details
 ###### *Data source: [Measuring the effects of monetary policy: a factor-augmented vector autoregressive (FAVAR) approach](https://academic.oup.com/qje/article-abstract/120/1/387/1931468?redirectedFrom=PDF&casa_token=ZkGknLUtMHwAAAAA:5EU8a8LgKVZAnpkuZ4F4zIIpy3EivyGD6ZuUKopeiPHjX9QmBabc_zysXUBBdpecMHXABLGc5IHB1A)*
 ### Outputs
 - The result of IRF with error bands   :  [*IRF_FAVAR.xlsx*]()
-- The result of variance decomposition :  [*VD_FAVAR.txt*]()
+- The result of variance decomposition :  [*VD_FAVAR.xlsx*]()
 ### Copyright notice
 - AUTHOR: __*Yingxin LIN*__
 - Company: *Prof.[__Yi FAN__](http://sf.cufe.edu.cn/info/1112/10555.htm)'s workshop, School of Finance, Central University of Finance and Economics* (CUFE)
