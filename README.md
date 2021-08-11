@@ -7,7 +7,7 @@
 #### &emsp;&emsp;&emsp;- The program only needs to run once to output the impulse response with error band and variance decomposition results of &emsp;&emsp;&emsp;&ensp;all series in both [*xdata.xlsx*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/xdata.XLSX) and [*ydata.xlsx*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/ydata.XLSX).
 #### &emsp;&emsp;&emsp;- The result of *generalized variance decomposition* is available.
 #### &emsp;&emsp;&emsp;- Almost no bugs.
-- I also provided a Python code([*Draw IRF.ipyb*]()) to show the IRF results in this package.
+- I also provided a Python code ( *i.g.* [__*Draw IRF.ipyb*__]() ) to show the IRF results in this package.
 ### Enviroment
 - Windows RATS 10.0
 ### Files loaded
