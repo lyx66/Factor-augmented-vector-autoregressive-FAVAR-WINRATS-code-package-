@@ -1,6 +1,6 @@
 # Factor-augmented-vector-autoregressive-(FAVAR)-WINRATS-code-package
 ### Introduction
--
+#### *FAVAR_TWO_STEPS_LYX* is the package for a *two-step estimation* method of the Factor augmented VAR (FAVAR) models. In the main code, I replicated the empirical results in  *Bernanke et al.* 's paper *[Measuring the effects of monetary policy: a factor-augmented vector autoregressive (FAVAR) approach](https://academic.oup.com/qje/article-abstract/120/1/387/1931468?redirectedFrom=PDF&casa_token=ZkGknLUtMHwAAAAA:5EU8a8LgKVZAnpkuZ4F4zIIpy3EivyGD6ZuUKopeiPHjX9QmBabc_zysXUBBdpecMHXABLGc5IHB1A)* .
 ### Files loaded
 #### Two __*'.xlsx'*__ files loaded by main code are listed as below:
 File|# of series|Details
