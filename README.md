@@ -9,7 +9,8 @@
 #### &emsp;&emsp;&emsp;- Almost no bugs.
 - I also provided a Python code ( *i.g.* [__*Draw IRF.ipyb*__]() ) to show the IRF results in this package.
 ### Enviroment
-- Windows RATS 10.0
+- *Windows RATS 10.0*
+- *Python 3.7*
 ### Files loaded
 #### Two __*'.xlsx'*__ files loaded by main code are listed as below:
 File|# of series|Details
