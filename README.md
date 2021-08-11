@@ -21,7 +21,7 @@
 - kilianbootsetup.src - *two-stages boostrap* for IRF error band ( [*Kilian, 1998*](https://direct.mit.edu/rest/article-abstract/80/2/218/57059) )
 ### Enviroment
 - FAVAR model: *Windows RATS 10.0*
-- Graph for IRF: *Python 3.7*
+- Graph for IRF: *Python 3.8*
 ### Files loaded
 #### Two __*'.xlsx'*__ files loaded by main code are listed as below:
 File|# of series|Details
