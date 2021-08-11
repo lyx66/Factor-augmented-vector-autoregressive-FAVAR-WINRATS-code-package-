@@ -4,7 +4,7 @@
 ##### *Fig.1 IRF comparation: baseline (5 Factors+FFR) vs 3 Factors+FFR*
 ![IRF results comparation-baseline(5 factors) vs 3 factors](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/IRF%20results%20comparation-baseline(5%20factors)%20vs%203%20factors.png?raw=false)
 ###### Note: FFR (Federal funds rate) is the proxy variable of Monetary Policy and the only one observable factor in FAVAR model.
-##### *Fig.2 Impluse response of FRR and other 19 Macroeconomic variables in Xdata to MP schock*
+##### *Fig.2 Impluse response of FFR and other 19 Macroeconomic variables in Xdata to MP schock*
 ![Impluse response of FRR and other 19 Macroeconomic variables in Xdata to MP schock](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/Impluse%20response%20of%20FFR%20and%20other%2019%20Macroeconomic%20variables%20in%20Xdata%20to%20MP%20schock.png?raw=false)
 - Although there has been a opensource *MATLAB* package for a Bayesian likelihood methods and Gibbs sampling estimation for FAVAR model, that is, the [*FAVAR*](https://drive.google.com/file/d/0BzOpR8T359fhOUY5bkh5dkM5bEU/view?resourcekey=0-MfpcA9LYIjBF3YsHYNiWRw) *MATLAB* package written by *Gary Koop*, it has the disadvantages of large time-consuming due to sampling estimation, inflexible result output process and even some bugs. In order to apply FAVAR in my own research, I have written this *RATS* code package.
 - Compared with the *MATLAB* package, some superiorities of [*__FAVAR_TWO_STEPS_LYX__*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/FAVAR_TWO_STEPS_LYX.zip) are listed as below:
