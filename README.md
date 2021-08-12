@@ -1,4 +1,5 @@
 # Factor-augmented-vector-autoregressive-(FAVAR)-WIN-RATS-code-package
+## by *Yingxin LIN*
 ### Introduction
 - [*__FAVAR_TWO_STEPS_LYX__*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/FAVAR_TWO_STEPS_LYX.zip) is the package for a *two-step estimation* method of the Factor augmented VAR (FAVAR) models, which is based on *__RATS 10.0__* . In the main code, I replicated the empirical results as in  *Bernanke et al. (2005)* ( *i.g. [Measuring the effects of monetary policy: a factor-augmented vector autoregressive (FAVAR) approach](https://academic.oup.com/qje/article-abstract/120/1/387/1931468?redirectedFrom=PDF&casa_token=ZkGknLUtMHwAAAAA:5EU8a8LgKVZAnpkuZ4F4zIIpy3EivyGD6ZuUKopeiPHjX9QmBabc_zysXUBBdpecMHXABLGc5IHB1A)* ), some of them are showed as below:
 ##### *Fig.1 IRF comparation: baseline (5 Factors+FFR) vs 3 Factors+FFR*
@@ -20,6 +21,22 @@
 - verd_lyx.src&emsp;&emsp;&emsp;&ensp;- get variance matrix of forecast error
 - mcgraphirf_lyx.src&ensp;- get median value and error band of IRF
 - kilianbootsetup.src - *two-stages boostrap* for IRF error band, based on [*Kilian(1998)*](https://direct.mit.edu/rest/article-abstract/80/2/218/57059).
+### Simple UserGuide
+#### *By adjusting the following parameters in Main code.rpf, it is easy to change the purpose of the package:*
+- `ny` - Number of Observable Factors.
+- `keyvars` - Number of [*xdata.xlsx*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/xdata.XLSX) series whose IRF and variance decomposition to MP shock you are intrested in. 
+- `nf` - Number of Latent factors.
+- `ndraws` - Number of draws in two-stages boostrap (for error band of IRF).
+- `usegirf` - Whether use *Generalized variance decomption* or not. when `usegirf = 0` , choleky decomposition is used; On the contrary, if `usegirf = 1` , generalized variance decomption will be applied.
+#### *Latent factors obtained by PCA should be rotated as below, since "slow-moving" series in xdata by assumption are not affected contemporaneously by FFR.*
+```
+dec vect[series] PC_new(nf)
+dofor i_ = 1 to nf
+   linreg(NOPRINT) PC(i_) /
+   # constant fyff PC_slow(1) to PC_slow(nf)
+   set PC_new(i_) = PC(i_){0} - %BETA(2) * fyff{0}
+end dofor i_
+```
 ### Enviroment
 - FAVAR model: *Windows RATS 10.0*
 - Graph for IRF: *Python 3.8*
