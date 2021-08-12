@@ -14,7 +14,7 @@
 </br>&emsp;3.&emsp;The result of *generalized variance decomposition* is available.
 </br>&emsp;4.&emsp;Almost no bugs.
 </br>&emsp;5.&emsp;It is simple to modify this *RATS* package if you want to apply it to your own reaserch.
-- I also provided a Python code ( *i.g.* [__*Draw IRF.ipynb*__](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/Draw%20IRF.ipynb) ) to show the IRF results in this package.
+- I also provided a Python code ( *i.g.* [__*Draw IRF.ipynb*__](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/Draw%20IRF.ipynb) ) in the file-list to show the IRF results outputed by *RATS* package.
 ### Files in package [*__FAVAR_TWO_STEPS_LYX__*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/FAVAR_TWO_STEPS_LYX.zip)
 - Main code.rpf
 - verd_lyx.src&emsp;&emsp;&emsp;&ensp;- get variance matrix of forecast error
