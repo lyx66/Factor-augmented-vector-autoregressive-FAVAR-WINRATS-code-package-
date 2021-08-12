@@ -13,6 +13,7 @@
 </br>&emsp;2.&emsp;The program only needs to run once to output the impulse response with error band and variance decomposition results of all series in both [*xdata.xlsx*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/xdata.XLSX) and [*ydata.xlsx*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/ydata.XLSX).
 </br>&emsp;3.&emsp;The result of *generalized variance decomposition* is available.
 </br>&emsp;4.&emsp;Almost no bugs.
+</br>&emsp;5.&emsp;It is simple to modify this *RATS* package if you want to apply it to your own reaserch.
 - I also provided a Python code ( *i.g.* [__*Draw IRF.ipynb*__](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/Draw%20IRF.ipynb) ) to show the IRF results in this package.
 ### Files in package [*__FAVAR_TWO_STEPS_LYX__*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/FAVAR_TWO_STEPS_LYX.zip)
 - Main code.rpf
