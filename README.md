@@ -38,7 +38,7 @@ File|# of series|Details
 - For more technical details about *two-step estimation* method of FAVAR model and my package, it's beneficial to read the [*working-paper*](http://www.nber.org/papers/w10220) version of *Bernanke et al. (2005)*, which was published in 2004.
 ### Copyright notice
 - AUTHOR: __*Yingxin LIN*__
-- Company: *Prof.[__Yi FAN__](http://sf.cufe.edu.cn/info/1112/10555.htm)'s workshop, School of Finance, Central University of Finance and Economics* (CUFE)
+- Company: *Prof.[__FAN Yi__](http://sf.cufe.edu.cn/info/1112/10555.htm)'s workshop, School of Finance, Central University of Finance and Economics* (CUFE)
 - Contact: lyxurthebest@163.com or lyxurthebest@outlook.com
 - The copyright belongs to __*Yingxin LIN*__ , 2021/08/12.
 #### *Enjoy*（。＾▽＾) *! (...and extend/modify)* 😊
