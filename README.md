@@ -21,7 +21,7 @@
 - verd_lyx.src&emsp;&emsp;&emsp;&ensp;- get variance matrix of forecast error
 - mcgraphirf_lyx.src&ensp;- get median value and error band of IRF
 - kilianbootsetup.src - *two-stages boostrap* for IRF error band, based on [*Kilian(1998)*](https://direct.mit.edu/rest/article-abstract/80/2/218/57059).
-### Simple UserGuide
+### Quick Start
 #### *By adjusting the following parameters in Main code.rpf, it is easy to change the purpose of the package:*
 - `ny` - Number of Observable Factors.
 - `keyvars` - Number of [*xdata.xlsx*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/xdata.XLSX) series whose IRF and variance decomposition to MP shock you are intrested in. 
@@ -37,7 +37,7 @@ dofor i_ = 1 to nf
    set PC_new(i_) = PC(i_){0} - %BETA(2) * fyff{0}
 end dofor i_
 ```
-### Enviroment
+### Environment
 - FAVAR model: *Windows RATS 10.0*
 - Graph for IRF: *Python 3.8*
 ### Files loaded
