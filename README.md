@@ -1,4 +1,4 @@
-# Factor-augmented-vector-autoregressive-(FAVAR)-WIN-RATS-code-package
+## Factor-augmented-vector-autoregressive-(FAVAR)-WIN-RATS-code-package
 by ***Yingxin LIN***
 
 ---
