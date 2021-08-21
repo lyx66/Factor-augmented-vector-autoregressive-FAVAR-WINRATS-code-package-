@@ -1,7 +1,6 @@
 ## Factor-augmented-vector-autoregressive-(FAVAR)-WIN-RATS-code-package
 by ***Yingxin LIN***
 
----
 ### Introduction
 - [*__FAVAR_TWO_STEPS_LYX__*](https://github.com/lyx66/Factor-augmented-vector-autoregressive-FAVAR-WINRATS-code-package-/blob/main/FAVAR_TWO_STEPS_LYX.zip) is the package for a *two-step estimation* method of the Factor augmented VAR (FAVAR) models, which is based on *__RATS 10.0__* . In the main code, I replicated the empirical results as in  *Bernanke et al. (2005)* ( *i.g. [Measuring the effects of monetary policy: a factor-augmented vector autoregressive (FAVAR) approach](https://academic.oup.com/qje/article-abstract/120/1/387/1931468?redirectedFrom=PDF&casa_token=ZkGknLUtMHwAAAAA:5EU8a8LgKVZAnpkuZ4F4zIIpy3EivyGD6ZuUKopeiPHjX9QmBabc_zysXUBBdpecMHXABLGc5IHB1A)* ), some of them are showed as below:
 ##### *Fig.1 IRF comparation: baseline (5 Factors+FFR) vs 3 Factors+FFR*
